@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-dbt",
+  "version": "0.0.1",
+  "description": "De Boer Tool's ESLint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeBoerTool/eslint-config-dbt"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "de boer tool",
+    "javascript"
+  ],
+  "author": "Daniel S. Deboer",
+  "contributors": [
+    {
+      "name": "Daniel S. Deboer",
+      "url": "https://github.com/danielsdeboer"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/DeBoerTool/eslint-config-dbt",
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  }
+}
