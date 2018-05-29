@@ -11,5 +11,9 @@ module.exports = {
         objects: 'always-multiline',
       }
     ],
+
+    'linebreaks': [
+      'ignore'
+    ]
   }
 }
