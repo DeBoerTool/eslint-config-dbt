@@ -19,6 +19,6 @@ module.exports = {
 
     indent: ["error", 2],
 
-    "linebreak-style": ["ignore"]
+    'linebreak-style': 'off',
   }
 };
