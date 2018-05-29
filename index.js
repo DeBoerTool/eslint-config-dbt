@@ -1,24 +1,21 @@
 module.exports = {
-  extends: ["airbnb"],
+  extends: ['airbnb'],
 
   rules: {
-    "comma-dangle": [
-      "error",
+    'comma-dangle': [
+      'error',
       {
-        arrays: "always-multiline",
-        objects: "always-multiline"
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
       }
     ],
 
-    complexity: [
-      "error",
-      {
-        max: 2
-      }
-    ],
+    complexity: ['error', { max: 2 }],
 
-    indent: ["error", 2],
+    indent: ['error', 2],
 
     'linebreak-style': 'off',
+
+    semi: ['error', 'never'],
   }
 };
