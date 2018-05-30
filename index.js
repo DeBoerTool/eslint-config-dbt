@@ -12,6 +12,8 @@ module.exports = {
 
     complexity: ['error', { max: 2 }],
 
+    'function-paren-newline': 'off',
+
     indent: ['error', 2],
 
     'linebreak-style': 'off',
@@ -19,5 +21,6 @@ module.exports = {
     semi: ['error', 'never'],
 
     'space-before-function-paren': ['error', 'always'],
+
   },
 }
