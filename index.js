@@ -1,5 +1,7 @@
 module.exports = {
-  extends: ['airbnb'],
+  extends: [
+    'airbnb',
+  ],
 
   rules: {
     'comma-dangle': [
@@ -18,9 +20,10 @@ module.exports = {
 
     'linebreak-style': 'off',
 
+    'react/prefer-stateless-function': 'off',
+
     semi: ['error', 'never'],
 
     'space-before-function-paren': ['error', 'always'],
-
   },
 }
