@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dbt",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "De Boer Tool's ESLint config",
   "main": "index.js",
   "repository": {
