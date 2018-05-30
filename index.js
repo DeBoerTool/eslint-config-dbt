@@ -7,7 +7,7 @@ module.exports = {
       {
         arrays: 'always-multiline',
         objects: 'always-multiline',
-      }
+      },
     ],
 
     complexity: ['error', { max: 2 }],
@@ -18,6 +18,6 @@ module.exports = {
 
     semi: ['error', 'never'],
 
-    'space-before-function-paren': ['error', 'always']
-  }
-};
+    'space-before-function-paren': ['error', 'always'],
+  },
+}
