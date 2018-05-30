@@ -17,5 +17,7 @@ module.exports = {
     'linebreak-style': 'off',
 
     semi: ['error', 'never'],
+
+    'space-before-function-paren': ['error', 'always']
   }
 };
