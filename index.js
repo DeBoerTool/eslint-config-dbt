@@ -20,7 +20,7 @@ module.exports = {
 
     'linebreak-style': 'off',
 
-    'object-curly-newline': ['error', { 'multiline': true }]
+    'object-curly-newline': ['error', { 'multiline': true }],
 
     'react/prefer-stateless-function': 'off',
 
