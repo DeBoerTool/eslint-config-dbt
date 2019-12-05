@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dbt",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "De Boer Tool's ESLint config",
   "main": "index.js",
   "repository": {
@@ -24,10 +24,6 @@
   "license": "MIT",
   "homepage": "https://github.com/DeBoerTool/eslint-config-dbt",
   "dependencies": {
-    "eslint": "^5.1.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.17.1",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4"
+    "eslint-config-airbnb": "^18.0.0"
   }
 }
