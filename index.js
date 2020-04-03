@@ -90,7 +90,9 @@ module.exports = {
     'block-spacing': [ERR, ALWAYS],
     'brace-style': [ERR, '1tbs'],
     'camelcase': ERR,
-    'capitalized-comments': ERR,
+    'capitalized-comments': [ERR, ALWAYS, {
+      ignoreConsecutiveComments: true,
+    }],
     'comma-dangle': [ERR, 'always-multiline'],
     'comma-spacing': ERR,
     'comma-style': ERR,
