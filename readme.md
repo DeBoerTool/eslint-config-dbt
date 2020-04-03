@@ -1,3 +1,3 @@
 ## eslint-config-dbt
 
-An ESLint config extending eslint-config-airbnb. Install via NPM. MIT License.
+An ESLint config for JavaScript and Vue projects. Install via NPM. MIT License.
