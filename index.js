@@ -8,16 +8,18 @@ const CONSISTENT = 'consistent'
 module.exports = {
   extends: [
     'plugin:vue/recommended',
+    '@vue/typescript/recommended',
   ],
 
   plugins: [
-    'html',
     'vue',
   ],
 
+  parser: 'vue-eslint-parser',
+
   parserOptions: {
-    parser: 'babel-eslint',
-    ecmaVersion: 6,
+    parser: '@typescript-eslint/parser',
+    ecmaVersion: 2020,
     sourceType: 'module',
   },
 
