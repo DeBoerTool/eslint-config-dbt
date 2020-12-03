@@ -246,7 +246,9 @@ module.exports = {
   'no-constructor-return': 'error',
   'no-div-regex': 'error',
   'no-else-return': 'error',
-  'no-empty-function': 'error',
+
+  // This is disabled in favour of @typescript-eslint/no-empty-function
+  'no-empty-function': 'off',
   'no-empty-pattern': 'error',
   'no-eq-null': 'error',
   'no-eval': 'error',

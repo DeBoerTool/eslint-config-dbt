@@ -11,4 +11,5 @@ module.exports = {
   }],
 
   '@typescript-eslint/no-useless-constructor': ['error'],
+  '@typescript-eslint/no-empty-function': ['error'],
 }
