@@ -155,7 +155,10 @@ module.exports = {
   'no-duplicate-imports': 'error',
   'no-this-before-super': 'error',
   'no-useless-computed-key': 'error',
-  'no-useless-constructor': 'error',
+
+  // This is disabled in favour of @typescript-eslint/no-useless-constructor
+  'no-useless-constructor': 'off',
+
   'no-useless-rename': 'error',
   'no-var': 'error',
   'object-shorthand': ['error', 'always'],
@@ -261,7 +264,7 @@ module.exports = {
   'no-labels': 'error',
   'no-lone-blocks': 'error',
   'no-loop-func': 'error',
-  'no-magic-numbers': 'error',
+  'no-magic-numbers': 'off',
   'no-multi-spaces': 'error',
   'no-multi-str': 'error',
   'no-new': 'error',

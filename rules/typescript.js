@@ -9,4 +9,6 @@ module.exports = {
       requireLast: false,
     },
   }],
+
+  '@typescript-eslint/no-useless-constructor': ['error'],
 }
